@@ -1,0 +1,2258 @@
+#space-ship {
+  min-height: 240vh;
+  background-color: #fff;
+  overflow: hidden;
+}
+#space-ship #img-1 {
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+footer {
+  color: #2866ad;
+}
+.continue{
+  color: #fff;
+}
+.continue:hover{
+ color: #fff;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.info-box {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.entry-text {
+  font-size: 13px;
+  width: 62%;
+  text-align: center;
+}
+.shadow {
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+}
+.table-head {
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 5px 0;
+  margin: 0;
+}
+.table-bdy {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 7px 0;
+}
+.first-line {
+  width: 50%;
+  text-align: center;
+}
+.scnd-line {
+  width: 50%;
+  align-self: center;
+  text-align: center;
+}
+.span-table {
+  color: #ff7600;
+  margin-right: 30%;
+}
+.border-table {
+  border: 1px solid #d1d1d1;
+}
+#mobile-select {
+  display: none;
+}
+.detalles p {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+#footer-select{
+  padding-top: 200px;
+  border-top: 1px solid #ffffff90;
+}
+.box-1 {
+  background-color: #fe5000;
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.box-2 {
+  background-color: #1edf00;
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.box-3 {
+  background-color: #7c3288;
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.box-4 {
+  background-color: #ff32aa;
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.box-5 {
+  background-color: #8900fe;
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.box-6 {
+  background-color: #b1b1b1;
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin-right: 5px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detalles:last-child {
+  margin-bottom: 50px;
+}
+.x-img {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+}
+.continue {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 30%;
+  background-color: #fe5000;
+  border-radius: 5px;
+}
+.continue a:hover{
+  color: #fff!important;
+}
+.line-1 {
+  position: absolute;
+  right: 278px;
+  top: 180px;
+}
+.line-2 {
+  position: absolute;
+  right: 180px;
+  top: 180px;
+}
+.see-all{
+  text-decoration: none;
+  padding: 14px 80px;
+  color: #fff;
+}
+.see-all:hover{
+  color: #fff;
+}
+.cockpit .line-1 #item-1 {
+  background-color: #ffc400;
+  border: 4px solid #e6a800;
+  border-radius: 7px;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cockpit .line-1 #item-2 {
+  border: 4px solid #7c3288;
+  border-radius: 7px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.cockpit .line-2 #item-3 {
+  background-color: #ffc400;
+  border: 4px solid #e6a800;
+  border-radius: 7px;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cockpit .line-2 #item-4 {
+  border: 4px solid #7c3288;
+  border-radius: 7px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.services .line-3 {
+  position: absolute;
+  right: 103px;
+  top: 404px;
+  display: flex;
+  justify-content: space-between;
+  width: 275px;
+}
+.services .line-4 {
+  position: absolute;
+  right: 22px;
+  top: 461px;
+  display: flex;
+  justify-content: space-between;
+  width: 437px;
+}
+.services .line-3 #item-5 {
+  background-color: #000fc9;
+  border: 4px solid #0074c9;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-3 #item-6 {
+  background-color: #000fc9;
+  border: 4px solid #0074c9;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-3 #item-7 {
+  background-color: #000fc9;
+  border: 4px solid #0074c9;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-3 #item-8 {
+  background-color: #000fc9;
+  border: 4px solid #0074c9;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-4 #item-9 {
+  border: 4px solid #fe5000;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-4 #item-10 {
+  border: 4px solid #fe5000;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-4 #item-11 {
+  border: 4px solid #fe5000;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-4 #item-12 {
+  border: 4px solid #fe5000;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-4 #item-13 {
+  border: 4px solid #fe5000;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.services .line-4 #item-14 {
+  border: 4px solid #fe5000;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.border-line-1 {
+  width: 437px;
+  height: 3px;
+  background-color: #707070;
+  position: absolute;
+  top: 525px;
+  right: 22px;
+}
+.robot .line-5 .letters {
+  font-size: 29px;
+  font-weight: 600;
+  position: absolute;
+  right: 38px;
+  top: 540px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 389px;
+}
+.robot .line-6 {
+  position: absolute;
+  right: 32px;
+  top: 580px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.robot #index-1 {
+  position: absolute;
+  right: 450px;
+  top: 580px;
+}
+.robot .line-6 #item-15 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.robot .line-6 #item-16 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.robot .line-6 #item-17 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.robot .line-6 #item-18 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.robot .line-6 #item-19 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.robot .line-6 #item-20 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.robot .line-6 #item-21 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.robot .line-6 #item-22 {
+  border: 4px solid #1edf00;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.border-line-2 {
+  width: 437px;
+  height: 3px;
+  background-color: #707070;
+  position: absolute;
+  top: 650px;
+  right: 22px;
+}
+#index-2 {
+  position: absolute;
+  right: 450px;
+  top: 680px;
+}
+.line-7 {
+  position: absolute;
+  right: 32px;
+  top: 680px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-7 #item-23 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-7 #item-24 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-7 #item-25 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-7 #item-26 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-7 #item-27 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-7 #item-28 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-7 #item-29 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-7 #item-30 {
+  border: 4px solid #ff32aa;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+#index-3 {
+  position: absolute;
+  right: 450px;
+  top: 740px;
+}
+.line-8 {
+  position: absolute;
+  right: 32px;
+  top: 740px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-8 #item-31 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-8 #item-32 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-8 #item-33 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-8 #item-34 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-8 #item-35 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-8 #item-36 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-8 #item-37 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-8 #item-38 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+
+#index-4 {
+  position: absolute;
+  right: 450px;
+  top: 800px;
+}
+.line-9 {
+  position: absolute;
+  right: 32px;
+  top: 800px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-9 #item-39 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-9 #item-40 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-9 #item-41 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-9 #item-42 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-9 #item-43 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-9 #item-44 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-9 #item-45 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-9 #item-46 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+
+#index-5 {
+  position: absolute;
+  right: 450px;
+  top: 860px;
+}
+.line-10 {
+  position: absolute;
+  right: 32px;
+  top: 860px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-10 #item-47 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-10 #item-48 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-10 #item-49 {
+  background-color: #b1b1b1;
+  border: 4px solid #b1b1b1;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+  cursor: default;
+}
+.line-10 #item-50 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-10 #item-51 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-10 #item-52 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-10 #item-53 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-10 #item-54 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+
+#index-6 {
+  position: absolute;
+  right: 450px;
+  top: 920px;
+}
+.line-11 {
+  position: absolute;
+  right: 32px;
+  top: 920px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-11 #item-55 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-11 #item-56 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-11 #item-57 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-11 #item-58 {
+  background-color: #b1b1b1;
+  border: 4px solid #b1b1b1;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+  cursor: default;
+}
+.line-11 #item-59 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-11 #item-60 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-11 #item-61 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-11 #item-62 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+#index-7 {
+  position: absolute;
+  right: 450px;
+  top: 980px;
+}
+.line-12 {
+  position: absolute;
+  right: 32px;
+  top: 980px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-12 #item-63 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-12 #item-64 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-12 #item-65 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-12 #item-66 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-12 #item-67 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-12 #item-68 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-12 #item-69 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-12 #item-70 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+#index-8 {
+  position: absolute;
+  right: 450px;
+  top: 1040px;
+}
+.line-13 {
+  position: absolute;
+  right: 32px;
+  top: 1040px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-13 #item-71 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-13 #item-72 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-13 #item-73 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-13 #item-74 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-13 #item-75 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-13 #item-76 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-13 #item-77 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-13 #item-78 {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+
+.line-13 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-12 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-11 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-10 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-9 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-8 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-7 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-6 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-4 *:hover {
+  background-color: #fe500090;
+  cursor: pointer;
+}
+.line-1 #item-2:hover {
+  background-color: #7c3288;
+}
+.line-2 #item-4:hover {
+  background-color: #7c3288;
+}
+#index-9 {
+  position: absolute;
+  right: 450px;
+  top: 1100px;
+}
+.line-14 {
+  position: absolute;
+  right: 32px;
+  top: 1100px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-14 * {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-14 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-14 #item-82 {
+  background-color: #b1b1b1;
+  border: 4px solid #b1b1b1;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+  cursor: default;
+}
+#index-10 {
+  position: absolute;
+  right: 450px;
+  top: 1160px;
+}
+.line-15 {
+  position: absolute;
+  right: 32px;
+  top: 1160px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-15 * {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-15 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+.line-15 #item-90 {
+  background-color: #b1b1b1;
+  border: 4px solid #b1b1b1;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+  cursor: default;
+}
+
+#index-11 {
+  position: absolute;
+  right: 450px;
+  top: 1220px;
+}
+.line-16 {
+  position: absolute;
+  right: 32px;
+  top: 1220px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.line-16 * {
+  border: 4px solid #8900fe;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+.line-16 *:hover {
+  background-color: #8900fe90;
+  cursor: pointer;
+}
+#index-12 {
+    position: absolute;
+    right: 450px;
+    top: 1280px;
+  }
+  .line-17 {
+    position: absolute;
+    right: 32px;
+    top: 1280px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .line-17 * {
+    border: 4px solid #8900fe;
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+  }
+  .line-17 *:hover {
+    background-color: #8900fe90;
+    cursor: pointer;
+  }
+  .line-17 #item-109 {
+    background-color: #b1b1b1;
+    border: 4px solid #b1b1b1;
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+    cursor: default;
+  }
+  
+  #index-13 {
+    position: absolute;
+    right: 450px;
+    top: 1340px;
+  }
+  .line-18 {
+    position: absolute;
+    right: 32px;
+    top: 1340px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .line-18 * {
+    border: 4px solid #8900fe;
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+  }
+  .line-18 *:hover {
+    background-color: #8900fe90;
+    cursor: pointer;
+  }
+
+.casino{
+    width: 400px;
+    height: 240px;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    position: absolute;
+    right: 32px;
+    top: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    font-weight: 600;
+}
+.bath-room{
+    position: absolute;
+    right: 32px;
+    top: 1700px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.bath-room #bath-1{
+    padding: 8px 35px;
+    border: 1px solid #707070;
+    color: #707070;
+    border-radius: 3px;
+}
+.bath-room #bath-2{
+    padding: 8px 35px;
+    border: 1px solid #707070;
+    color: #707070;
+    border-radius: 3px;
+}
+.bath-room #bath-3{
+    padding: 8px 35px;
+    border: 1px solid #707070;
+    color: #707070;
+    border-radius: 3px;
+}
+.cockpit-class{
+  background-color: #7c3288;
+}
+.services-class{
+  background-color: #FE5000;
+}
+.user-class{
+  background-color: #8900FE;
+}
+@media only screen and (max-width: 1440px) {
+  header {
+    height: fit-content;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .info-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .entry-text {
+    font-size: 13px;
+    width: 62%;
+    margin: auto;
+  }
+  #space-ship {
+    min-height: 280vh;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  #space-ship #img-1 {
+    position: absolute;
+    height: 75%;
+    bottom: 0;
+    border-top: 1px solid #000;
+  }
+  .cockpit .line-1{
+    top: 810px;
+    right: 155px;
+  }
+  .cockpit .line-2{
+    top: 810px;
+    right: 236px;
+  }
+  .services .line-3{
+    width: 21%;
+    right: 80px;
+    top: 1000px;
+  }
+  .services .line-4{
+    right: 20px;
+    width: 32%;
+    top: 1050px;
+  }
+  .border-line-1{
+    right: 20px;
+    width: 32%;
+    top: 1100px;
+  }
+  .robot .line-5 .letters{
+    right: 25px;
+    width: 32%;
+    top: 1110px;
+  }
+  .robot #index-1{
+    right: 400px;
+    top: 1150px;
+  }
+  .robot .line-6{
+    right: 20px;
+    width: 32%;
+    top: 1150px;
+  }
+  .border-line-2{
+    right: 20px;
+    width: 32%;
+    top: 1200px;
+  }
+  #index-2{
+    right: 400px;
+    top: 1250px;
+  }
+  .line-7{
+    right: 20px;
+    width: 32%;
+    top: 1250px;
+  }
+  #index-3{
+    right: 400px;
+    top: 1300px;
+  }
+  .line-8{
+    right: 20px;
+    width: 32%;
+    top: 1300px;
+  }
+  #index-4{
+    right: 400px;
+    top: 1350px;
+  }
+  .line-9{
+    right: 20px;
+    width: 32%;
+    top: 1350px;
+  }
+  #index-5{
+    right: 400px;
+    top: 1400px;
+  }
+  .line-10{
+    right: 20px;
+    width: 32%;
+    top: 1400px;
+  }
+  #index-6{
+    right: 400px;
+    top: 1450px;
+  }
+  .line-11{
+    right: 20px;
+    width: 32%;
+    top: 1450px;
+  }
+  #index-7{
+    right: 400px;
+    top: 1500px;
+  }
+  .line-12{
+    right: 20px;
+    width: 32%;
+    top: 1500px;
+  }
+  #index-8{
+    right: 400px;
+    top: 1550px;
+  }
+  .line-13{
+    right: 20px;
+    width: 32%;
+    top: 1550px;
+  }
+  #index-9{
+    right: 400px;
+    top: 1600px;
+  }
+  .line-14{
+    right: 20px;
+    width: 32%;
+    top: 1600px;
+  }
+  #index-10{
+    right: 400px;
+    top: 1650px;
+  }
+  .line-15{
+    right: 20px;
+    width: 32%;
+    top: 1650px;
+  }
+  #index-11{
+    right: 400px;
+    top: 1700px;
+  }
+  .line-16{
+    right: 20px;
+    width: 32%;
+    top: 1700px;
+  }
+
+
+  #index-12{
+    right: 400px;
+    top: 1750px;
+  }
+  .line-17{
+    right: 20px;
+    width: 32%;
+    top: 1750px;
+  }
+
+  #index-13{
+    right: 400px;
+    top: 1800px;
+  }
+  .line-18{
+    right: 20px;
+    top: 1800px;
+    width: 32%;
+  }
+  .casino{
+    top: 1850px;
+    width: 35%;
+    right: 20px;
+  }
+  .bath-room{
+    top: 2100px;
+    width: 35%;
+    right: 20px;
+}
+}
+@media only screen and (max-width: 1024px){
+    .cockpit .line-1{
+        top: 810px;
+        right: 150px;
+      }
+      .cockpit .line-2{
+        top: 810px;
+        right: 235px;
+      }
+      .services .line-3{
+        width: 21%;
+        right: 80px;
+        top: 1000px;
+      }
+      .services .line-4{
+        right: 20px;
+        width: 32%;
+        top: 1050px;
+      }
+      .border-line-1{
+        right: 20px;
+        width: 32%;
+        top: 1100px;
+      }
+      .robot .line-5 .letters{
+        right: 25px;
+        width: 38%;
+        top: 1110px;
+      }
+      .robot #index-1{
+        right: 400px;
+        top: 1150px;
+      }
+      .robot .line-6{
+        right: 20px;
+        width: 38%;
+        top: 1150px;
+      }
+      .border-line-2{
+        right: 20px;
+        width: 38%;
+        top: 1200px;
+      }
+      #index-2{
+        right: 400px;
+        top: 1250px;
+      }
+      .line-7{
+        right: 20px;
+        width: 38%;
+        top: 1250px;
+      }
+      #index-3{
+        right: 400px;
+        top: 1300px;
+      }
+      .line-8{
+        right: 20px;
+        width: 38%;
+        top: 1300px;
+      }
+      #index-4{
+        right: 400px;
+        top: 1350px;
+      }
+      .line-9{
+        right: 20px;
+        width: 38%;
+        top: 1350px;
+      }
+      #index-5{
+        right: 400px;
+        top: 1400px;
+      }
+      .line-10{
+        right: 20px;
+        width: 38%;
+        top: 1400px;
+      }
+      #index-6{
+        right: 400px;
+        top: 1450px;
+      }
+      .line-11{
+        right: 20px;
+        width: 38%;
+        top: 1450px;
+      }
+      #index-7{
+        right: 400px;
+        top: 1500px;
+      }
+      .line-12{
+        right: 20px;
+        width: 38%;
+        top: 1500px;
+      }
+      #index-8{
+        right: 400px;
+        top: 1550px;
+      }
+      .line-13{
+        right: 20px;
+        width: 38%;
+        top: 1550px;
+      }
+      #index-9{
+        right: 400px;
+        top: 1600px;
+      }
+      .line-14{
+        right: 20px;
+        width: 38%;
+        top: 1600px;
+      }
+      #index-10{
+        right: 400px;
+        top: 1650px;
+      }
+      .line-15{
+        right: 20px;
+        width: 38%;
+        top: 1650px;
+      }
+      #index-11{
+        right: 400px;
+        top: 1700px;
+      }
+      .line-16{
+        right: 20px;
+        width: 38%;
+        top: 1700px;
+      }
+    
+    
+      #index-12{
+        right: 400px;
+        top: 1750px;
+      }
+      .line-17{
+        right: 20px;
+        width: 38%;
+        top: 1750px;
+      }
+    
+      #index-13{
+        right: 400px;
+        top: 1800px;
+      }
+      .line-18{
+        right: 20px;
+        top: 1800px;
+        width: 38%;
+      }
+      .casino{
+        top: 1850px;
+        width: 38%;
+        right: 20px;
+      }
+      .bath-room{
+        top: 2100px;
+        width: 38%;
+        right: 20px;
+    }
+}
+@media only screen and (max-width: 766px) {
+  #mobile-select {
+    display: initial;
+  }
+  #mobile-diss {
+    display: none;
+  }
+  .detalles p {
+    font-size: 9px;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #space-ship {
+    min-height: 350vh;
+  }
+  .entry-text {
+    font-size: 13px;
+    width: 90%;
+    margin: auto;
+  }
+  .cockpit .line-1{
+    top: 1020px;
+    right: 195px;
+  }
+  .cockpit .line-2{
+    top: 1020px;
+    right: 295px;
+  }
+  .services .line-3{
+    width: 39%;
+    right: 105px;
+    top: 1250px;
+  }
+  .services .line-4{
+    right: 20px;
+    width: 62%;
+    top: 1300px;
+  }
+  .border-line-1{
+    right: 20px;
+    width: 62%;
+    top: 1370px;
+  }
+  .robot .line-5 .letters{
+    right: 25px;
+    width: 55%;
+    top: 1400px;
+  }
+  .robot #index-1{
+    right: 500px;
+    top: 1460px;
+  }
+  .robot .line-6{
+    right: 20px;
+    width: 62%;
+    top: 1460px;
+  }
+  .border-line-2{
+    right: 20px;
+    width: 62%;
+    top: 1520px;
+  }
+  #index-2{
+    right: 500px;
+    top: 1560px;
+  }
+  .line-7{
+    right: 20px;
+    width: 62%;
+    top: 1560px;
+  }
+  #index-3{
+    right: 500px;
+    top: 1620px;
+  }
+  .line-8{
+    right: 20px;
+    width: 62%;
+    top: 1620px;
+  }
+  #index-4{
+    right: 500px;
+    top: 1680px;
+  }
+  .line-9{
+    right: 20px;
+    width: 62%;
+    top: 1680px;
+  }
+  #index-5{
+    right: 500px;
+    top: 1740px;
+  }
+  .line-10{
+    right: 20px;
+    width: 62%;
+    top: 1740px;
+  }
+  #index-6{
+    right: 500px;
+    top: 1800px;
+  }
+  .line-11{
+    right: 20px;
+    width: 62%;
+    top: 1800px;
+  }
+  #index-7{
+    right: 500px;
+    top: 1860px;
+  }
+  .line-12{
+    right: 20px;
+    width: 62%;
+    top: 1860px;
+  }
+  #index-8{
+    right: 500px;
+    top: 1920px;
+  }
+  .line-13{
+    right: 20px;
+    width: 62%;
+    top: 1920px;
+  }
+  #index-9{
+    right: 500px;
+    top: 1980px;
+  }
+  .line-14{
+    right: 20px;
+    width: 62%;
+    top: 1980px;
+  }
+  #index-10{
+    right: 500px;
+    top: 2040px;
+  }
+  .line-15{
+    right: 20px;
+    width: 62%;
+    top: 2040px;
+  }
+  #index-11{
+    right: 500px;
+    top: 2100px;
+  }
+  .line-16{
+    right: 20px;
+    width: 62%;
+    top: 2100px;
+  }
+
+
+  #index-12{
+    right: 500px;
+    top: 2160px;
+  }
+  .line-17{
+    right: 20px;
+    width: 62%;
+    top: 2160px;
+  }
+
+  #index-13{
+    right: 500px;
+    top: 2240px;
+  }
+  .line-18{
+    right: 20px;
+    width: 62%;
+    top: 2240px;
+  }
+  .casino{
+    top: 2300px;
+    width: 62%;
+    right: 20px;
+  }
+  .bath-room{
+    top: 2600px;
+    width: 62%;
+    right: 20px;
+}
+}
+@media only screen and (max-width: 500px) {
+  .entry-text {
+    font-size: 13px;
+    width: 90%;
+    margin: auto;
+  }
+  .cockpit .line-1{
+    top: 1020px;
+    right: 195px;
+  }
+  .cockpit .line-2{
+    top: 1020px;
+    right: 295px;
+  }
+  .services .line-3{
+    width: 54%;
+    right: 95px;
+    top: 1250px;
+  }
+  .services .line-4{
+    right: 20px;
+    width: 85%;
+    top: 1300px;
+  }
+  .border-line-1{
+    right: 20px;
+    width: 85%;
+    top: 1370px;
+  }
+  .robot .line-5 .letters{
+    right: 25px;
+    width: 83%;
+    top: 1400px;
+  }
+  .robot #index-1{
+    left: 20px;
+    top: 1460px;
+  }
+  .robot .line-6{
+    right: 20px;
+    width: 85%;
+    top: 1460px;
+  }
+  .border-line-2{
+    right: 20px;
+    width: 85%;
+    top: 1520px;
+  }
+  #index-2{
+    left: 20px;
+    top: 1560px;
+  }
+  .line-7{
+    right: 20px;
+    width: 85%;
+    top: 1560px;
+  }
+  #index-3{
+    left: 20px;
+    top: 1620px;
+  }
+  .line-8{
+    right: 20px;
+    width: 85%;
+    top: 1620px;
+  }
+  #index-4{
+    left: 20px;
+    top: 1680px;
+  }
+  .line-9{
+    right: 20px;
+    width: 85%;
+    top: 1680px;
+  }
+  #index-5{
+    left: 20px;
+    top: 1740px;
+  }
+  .line-10{
+    right: 20px;
+    width: 85%;
+    top: 1740px;
+  }
+  #index-6{
+    left: 20px;
+    top: 1800px;
+  }
+  .line-11{
+    right: 20px;
+    width: 85%;
+    top: 1800px;
+  }
+  #index-7{
+    left: 20px;
+    top: 1860px;
+  }
+  .line-12{
+    right: 20px;
+    width: 85%;
+    top: 1860px;
+  }
+  #index-8{
+    left: 20px;
+    top: 1920px;
+  }
+  .line-13{
+    right: 20px;
+    width: 85%;
+    top: 1920px;
+  }
+  #index-9{
+    left: 20px;
+    top: 1980px;
+  }
+  .line-14{
+    right: 20px;
+    width: 85%;
+    top: 1980px;
+  }
+  #index-10{
+    left: 20px;
+    top: 2040px;
+  }
+  .line-15{
+    right: 20px;
+    width: 85%;
+    top: 2040px;
+  }
+  #index-11{
+    left: 20px;
+    top: 2100px;
+  }
+  .line-16{
+    right: 20px;
+    width: 85%;
+    top: 2100px;
+  }
+
+
+  #index-12{
+    left: 20px;
+    top: 2160px;
+  }
+  .line-17{
+    right: 20px;
+    width: 85%;
+    top: 2160px;
+  }
+
+  #index-13{
+    left: 20px;
+    top: 2240px;
+  }
+  .line-18{
+    right: 20px;
+    width: 85%;
+    top: 2240px;
+  }
+  .casino{
+    top: 2300px;
+    width: 85%;
+    right: 20px;
+  }
+  .bath-room{
+    top: 2600px;
+    width: 85%;
+    right: 20px;
+}
+}
+@media only screen and (max-width: 425px) {
+  #space-ship #img-1 {
+    position: absolute;
+    right: -5px;
+    width: 270%;
+  }
+  .info-box:nth-child(2){
+    margin-top: 50px!important;
+  }
+  .cockpit .line-1{
+    top: 920px;
+    right: 232px;
+  }
+  .cockpit .line-2{
+    top: 920px;
+    right: 150px;
+  }
+  .services .line-3{
+    width: 53%;
+    right: 85px;
+    top: 1180px;
+  }
+  .services .line-4{
+    right: 20px;
+    width: 84%;
+    top: 1240px;
+  }
+  .border-line-1{
+    right: 20px;
+    width: 85%;
+    top: 1300px;
+  }
+  .robot .line-5 .letters{
+    right: 25px;
+    width: 83%;
+    top: 1320px;
+  }
+  .robot #index-1{
+    left: 10px;
+    top: 1360px;
+  }
+  .robot .line-6{
+    right: 20px;
+    width: 85%;
+    top: 1360px;
+  }
+  .border-line-2{
+    right: 20px;
+    width: 85%;
+    top: 1420px;
+  }
+  #index-2{
+    left: 10px;
+    top: 1480px;
+  }
+  .line-7{
+    right: 20px;
+    width: 85%;
+    top: 1480px;
+  }
+  #index-3{
+    left: 10px;
+    top: 1540px;
+  }
+  .line-8{
+    right: 20px;
+    width: 85%;
+    top: 1540px;
+  }
+  #index-4{
+    left: 10px;
+    top: 1600px;
+  }
+  .line-9{
+    right: 20px;
+    width: 85%;
+    top: 1600px;
+  }
+  #index-5{
+    left: 10px;
+    top: 1660px;
+  }
+  .line-10{
+    right: 20px;
+    width: 85%;
+    top: 1660px;
+  }
+  #index-6{
+    left: 10px;
+    top: 1720px;
+  }
+  .line-11{
+    right: 20px;
+    width: 85%;
+    top: 1720px;
+  }
+  #index-7{
+    left: 10px;
+    top: 1780px;
+  }
+  .line-12{
+    right: 20px;
+    width: 85%;
+    top: 1780px;
+  }
+  #index-8{
+    left: 10px;
+    top: 1840px;
+  }
+  .line-13{
+    right: 20px;
+    width: 85%;
+    top: 1840px;
+  }
+  #index-9{
+    left: 10px;
+    top: 1900px;
+  }
+  .line-14{
+    right: 20px;
+    width: 85%;
+    top: 1900px;
+  }
+  #index-10{
+    left: 10px;
+    top: 1960px;
+  }
+  .line-15{
+    right: 20px;
+    width: 85%;
+    top: 1960px;
+  }
+  #index-11{
+    left: 10px;
+    top: 2020px;
+  }
+  .line-16{
+    right: 20px;
+    width: 85%;
+    top: 2020px;
+  }
+
+
+  #index-12{
+    left: 10px;
+    top: 2080px;
+  }
+  .line-17{
+    right: 20px;
+    width: 85%;
+    top: 2080px;
+  }
+
+  #index-13{
+    left: 10px;
+    top: 2140px;
+  }
+  .line-18{
+    right: 20px;
+    width: 85%;
+    top: 2140px;
+  }
+  .casino{
+    top: 2200px;
+    width: 85%;
+    right: 20px;
+  }
+  .bath-room{
+    top: 2500px;
+    width: 85%;
+    right: 20px;
+}
+}
+@media only screen and (max-width: 375px) {
+  #space-ship {
+    min-height: 400vh;
+  }
+  .cockpit .line-1{
+    top: 1053px;
+    right: 202px;
+  }
+  .cockpit .line-2{
+    top: 1053px;
+    right: 130px;
+  }
+  .services .line-3{
+    width: 53%;
+    right: 78px;
+    top: 1300px;
+  }
+  .services .line-4{
+    right: 20px;
+    width: 84%;
+    top: 1360px;
+  }
+  .border-line-1{
+    right: 20px;
+    width: 85%;
+    top: 1420px;
+  }
+  .robot .line-5 .letters{
+    right: 25px;
+    width: 83%;
+    top: 1440px;
+  }
+  .robot #index-1{
+    left: 10px;
+    top: 1480px;
+  }
+  .robot .line-6{
+    right: 20px;
+    width: 85%;
+    top: 1480px;
+  }
+  .border-line-2{
+    right: 20px;
+    width: 85%;
+    top: 1540px;
+  }
+  #index-2{
+    left: 10px;
+    top: 1580px;
+  }
+  .line-7{
+    right: 20px;
+    width: 85%;
+    top: 1580px;
+  }
+  #index-3{
+    left: 10px;
+    top: 1640px;
+  }
+  .line-8{
+    right: 20px;
+    width: 85%;
+    top: 1640px;
+  }
+  #index-4{
+    left: 10px;
+    top: 1700px;
+  }
+  .line-9{
+    right: 20px;
+    width: 85%;
+    top: 1700px;
+  }
+  #index-5{
+    left: 10px;
+    top: 1760px;
+  }
+  .line-10{
+    right: 20px;
+    width: 85%;
+    top: 1760px;
+  }
+  #index-6{
+    left: 10px;
+    top: 1820px;
+  }
+  .line-11{
+    right: 20px;
+    width: 85%;
+    top: 1820px;
+  }
+  #index-7{
+    left: 10px;
+    top: 1880px;
+  }
+  .line-12{
+    right: 20px;
+    width: 85%;
+    top: 1880px;
+  }
+  #index-8{
+    left: 10px;
+    top: 1940px;
+  }
+  .line-13{
+    right: 20px;
+    width: 85%;
+    top: 1940px;
+  }
+  #index-9{
+    left: 10px;
+    top: 2000px;
+  }
+  .line-14{
+    right: 20px;
+    width: 85%;
+    top: 2000px;
+  }
+  #index-10{
+    left: 5px;
+    top: 2060px;
+  }
+  .line-15{
+    right: 20px;
+    width: 85%;
+    top: 2060px;
+  }
+  #index-11{
+    left: 5px;
+    top: 2120px;
+  }
+  .line-16{
+    right: 20px;
+    width: 85%;
+    top: 2120px;
+  }
+
+
+  #index-12{
+    left: 5px;
+    top: 2180px;
+  }
+  .line-17{
+    right: 20px;
+    width: 85%;
+    top: 2180px;
+  }
+
+  #index-13{
+    left: 5px;
+    top: 2240px;
+  }
+  .line-18{
+    right: 20px;
+    width: 85%;
+    top: 2240px;
+  }
+  .casino{
+    top: 2300px;
+    width: 85%;
+    right: 20px;
+  }
+  .bath-room{
+    top: 2640px;
+    width: 85%;
+    right: 40px;
+}
+}
+@media only screen and (max-width: 320px) {
+  #space-ship {
+    min-height: 430vh;
+  }
+
+
+  .cockpit .line-1{
+    top: 1130px;
+    right: 170px;
+  }
+  .cockpit .line-2{
+    top: 1130px;
+    right: 107px;
+  }
+  .services .line-3{
+    width: 54%;
+    right: 67px;
+    top: 1400px;
+  }
+  .services .line-4{
+    right: 20px;
+    width: 84%;
+    top: 1450px;
+  }
+  .border-line-1{
+    right: 20px;
+    width: 85%;
+    top: 1500px;
+  }
+  .robot .line-5 .letters{
+    right: 25px;
+    width: 83%;
+    top: 1520px;
+  }
+  .robot #index-1{
+    left: 10px;
+    top: 1560px;
+  }
+  .robot .line-6{
+    right: 20px;
+    width: 85%;
+    top: 1560px;
+  }
+  .border-line-2{
+    right: 20px;
+    width: 85%;
+    top: 1620px;
+  }
+  #index-2{
+    left: 10px;
+    top: 1660px;
+  }
+  .line-7{
+    right: 20px;
+    width: 85%;
+    top: 1660px;
+  }
+  #index-3{
+    left: 10px;
+    top: 1740px;
+  }
+  .line-8{
+    right: 20px;
+    width: 85%;
+    top: 1740px;
+  }
+  #index-4{
+    left: 10px;
+    top: 1820px;
+  }
+  .line-9{
+    right: 20px;
+    width: 85%;
+    top: 1820px;
+  }
+  #index-5{
+    left: 10px;
+    top: 1900px;
+  }
+  .line-10{
+    right: 20px;
+    width: 85%;
+    top: 1900px;
+  }
+  #index-6{
+    left: 10px;
+    top: 1980px;
+  }
+  .line-11{
+    right: 20px;
+    width: 85%;
+    top: 1980px;
+  }
+  #index-7{
+    left: 10px;
+    top: 2040px;
+  }
+  .line-12{
+    right: 20px;
+    width: 85%;
+    top: 2040px;
+  }
+  #index-8{
+    left: 10px;
+    top: 2120px;
+  }
+  .line-13{
+    right: 20px;
+    width: 85%;
+    top: 2120px;
+  }
+  #index-9{
+    left: 10px;
+    top: 2200px;
+  }
+  .line-14{
+    right: 20px;
+    width: 85%;
+    top: 2200px;
+  }
+  #index-10{
+    left: 5px;
+    top: 2280px;
+  }
+  .line-15{
+    right: 20px;
+    width: 85%;
+    top: 2280px;
+  }
+  #index-11{
+    left: 5px;
+    top: 2360px;
+  }
+  .line-16{
+    right: 20px;
+    width: 85%;
+    top: 2360px;
+  }
+
+
+  #index-12{
+    left: 5px;
+    top: 2440px;
+  }
+  .line-17{
+    right: 20px;
+    width: 85%;
+    top: 2440px;
+  }
+
+  #index-13{
+    left: 5px;
+    top: 2520px;
+  }
+  .line-18{
+    right: 20px;
+    width: 85%;
+    top: 2520px;
+  }
+  .casino{
+    top: 2600px;
+    width: 90%;
+    right: 20px;
+  }
+  .bath-room{
+    top: 2900px;
+    width: 85%;
+    right: 40px;
+}
+}

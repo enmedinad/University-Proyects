@@ -1,0 +1,123 @@
+main{
+    font-family: 'Inter', sans-serif;
+    height: 260vh
+}
+input{
+    background-color: #EAEAEA;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #EAEAEA;
+}
+option{
+    width: 100%;
+    padding: 10px;
+    background-color: #EAEAEA;
+}
+label{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #EAEAEA;
+}
+.column-rigth{
+    height: 60vh;
+    margin-top: 50px;
+}
+.see-all{
+    text-decoration: none;
+    padding: 14px 80px;
+    color: #fff;
+  }
+  .see-all:hover{
+    color: #fff;
+  }
+#check{
+    width: 18px;
+    height: 18px;
+    border: 4px solid #8E8B8B;
+}
+.nombre{
+    width: 49%;
+}
+.more-info{
+    font-size: 18px;
+    font-weight: 700;
+}
+.check{
+    width: 80%;
+}
+.florcita{
+    background-color: #EAEAEA;
+    text-align: center;
+    padding: 15px 40px 3px 40px!important;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+}
+.florcita:nth-child(7){
+    font-weight: 700;
+}
+.florcita:nth-child(6){
+    font-weight: 700;
+}
+.mi-pedido{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.caja{
+    padding: 5px 50px;
+    min-height: 70vh;
+}
+#check-2{
+    width: 5%;
+    margin-left: 0!important;
+}
+.check{
+    width: 90%;
+    font-weight: 700;
+}
+.send-form{
+    background-color: #1D00FF;
+
+    border-radius: 5px;
+    padding: 20px 40px;
+    border: none;
+    color: #fff;
+}
+.send-form{
+    text-decoration: none;
+    color: #fff;
+}
+.send-form:hover{
+    color: #fff;
+}
+
+
+@media only screen and (max-width:1920px){
+    header{
+        height: fit-content;
+    }
+}
+@media only screen and (max-width:320px){
+    header{
+        height: fit-content;
+    }
+    input{
+        margin: 0;
+        width: 100%;
+    }
+    .col-12{
+        padding: 0!important;
+    }
+}

@@ -1,0 +1,59 @@
+main{
+    background-image: url(../img/bg-gracias.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 150vh;
+    padding-top: 10%;
+}
+header{
+    height: fit-content;
+}
+.see-all{
+    text-decoration: none;
+    padding: 14px 80px;
+    color: #fff;
+  }
+  .see-all:hover{
+    color: #fff;
+  }
+.gracias{
+    padding: 20px 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: min-content;
+    margin-left: auto;
+    margin-right: 10%;
+}
+.gracias h2{
+    color: #1D00FF;
+    font-size: 69px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 56px;
+}
+.gracias p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.column-rigth{
+    height: 50vh;
+}
+
+@media only screen and (max-width:768px){
+    .gracias{
+        margin-top: 220px;
+        width: 100%;
+        text-overflow: clip;
+    }
+}
+@media only screen and (max-width:425px){
+    .gracias{
+        text-align: center;
+    }
+    .gracias h2{
+        font-size: 35px;
+        line-height: 35px;
+    }
+}

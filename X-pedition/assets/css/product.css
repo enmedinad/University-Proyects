@@ -1,0 +1,44 @@
+
+.clicked{
+  background-color: #fe500050;
+}
+.see-all{
+  text-decoration: none;
+  padding: 14px 80px;
+  color: #fff;
+}
+.see-all:hover{
+  color: #fff;
+}
+@media only screen and (max-width: 1440px) {
+  header {
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mrgin {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .border-card {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .border-card {
+    width: 100%;
+  }
+  #footer-2 .container .row.mt-5 .col-12.col-md-2 {
+    margin-top: 20px;
+  }
+  .crumbs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  header {
+    height: fit-content;
+  }
+}
